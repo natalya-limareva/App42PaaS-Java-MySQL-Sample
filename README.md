@@ -1,3 +1,20 @@
+!!!!!!!!!!!!!!!!!!!
+
+apt update
+apt instal docker.io git
+curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+git clone https://github.com/natalya-limareva/App42PaaS-Java-MySQL-Sample.git
+cd App42PaaS-Java-MySQL-Sample
+docker-compose up -d
+docker ps
+
+http://84.201.168.173:8080/App42PaaS-Java-MySQL-Sample-0.0.1-SNAPSHOT/
+
+!!!!!!!!!!!!!!!!!!!
+
+
+
 Getting Started with App42PaaS-Java-MySQL-Sample Application:
 ----------------------------------------------------
 
